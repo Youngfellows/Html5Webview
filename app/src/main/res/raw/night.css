@@ -1,0 +1,33 @@
+
+/**, *:before, *:after {
+    box-sizing: inherit;
+    background-color: rgba(15, 16, 22, 1) !important;
+}*/
+
+/*背景颜色和一般字体颜色*/
+div,h1,h2,h3,h4,h5,h6,p,body,em,html,link,textarea,form,select,input,span,button,em,menu,aside,table,tr,td,nav,dl,dt,dd,amp-iframe,main{
+    background-color: rgba(15, 16, 22, 1) !important;
+    color: #ffffff!important;
+    border-color: #555555 !important;
+    text-shadow            : 0 0 0 #000; /*去掉文本的阴影效果*/
+}
+
+/*超链接*/
+a{
+    color:#3c5180 !important;
+}
+
+strong {
+	display: block;
+}
+
+img, video, iframe, canvas, svg,amp-social-share,
+embed[type='application/x-shockwave-flash'],
+object[type='application/x-shockwave-flash'],
+*[style*='url('] {
+    -webkit-filter : opacity(50%);
+    -ms-filter     : opacity(50%);
+    filter         : opacity(50%);
+}
+/*对一些特殊的标签，比如img，视频，动画，广告之类的进行了透明度的改变。整体效果下来非常不错了。
+  目前的话，还有一些个别的标签没有适配到，后期再慢慢优化了。*/
