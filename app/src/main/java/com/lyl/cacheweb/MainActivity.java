@@ -25,7 +25,7 @@ public class MainActivity extends Activity {
     /**
      * 是否支持CSS样式
      */
-    private boolean isSupport = false;
+    private boolean isSupport = true;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

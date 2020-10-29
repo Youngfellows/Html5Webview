@@ -27,9 +27,9 @@
             android:background="@drawable/edt_bg"
             android:hint="请输入您的网址"
             android:imeActionLabel="搜索"
-            android:text="@string/news"
             android:imeOptions="actionSearch"
-            android:singleLine="true"/>
+            android:singleLine="true"
+            android:text="@string/news"/>
 
     </LinearLayout>
 
@@ -61,13 +61,13 @@
                 android:id="@+id/rg_no_support_css"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:checked="true"
                 android:text="@string/tip_no_support_css"/>
 
             <RadioButton
                 android:id="@+id/rb_support_css"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:checked="true"
                 android:text="@string/tip_support_css"/>
 
         </RadioGroup>
